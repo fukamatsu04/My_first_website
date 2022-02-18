@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&display=swap");
+
+.navigationbar {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.navigationbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navigationbar i {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  font-size: 30px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.navigationbar a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.navigationbar a.active {
+  background-color: pink;
+  color: black;
+}
+
+.introdução {
+  background-color: grey;
+  width: 900px;
+  height: 310px;
+  margin: 175px 150px;
+  overflow: hidden;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.introdução > h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#cred {
+  text-align: center;
+}
